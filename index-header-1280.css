@@ -1,0 +1,43 @@
+.header {
+    max-width: 92.5%;
+    max-height: 52px;
+    margin: 28px auto 56px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+
+}
+
+.logo_place_header {
+    max-width: 176px;
+    max-height: 52px;
+}
+
+.header__lang-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header__lang-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
+
+.header__lang-link {
+    text-decoration: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
