@@ -1,6 +1,8 @@
 .root {
-    min-width: px;
-    max-width: px;
+    min-width: 320px;
+    max-width: 1280px;
     margin: auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color:#2A2C2F;
+    ;
 }
