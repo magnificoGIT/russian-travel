@@ -1,6 +1,5 @@
 .header {
     max-width: 92.5%;
-    max-height: 52px;
     margin: 28px auto 56px auto;
     display: flex;
     flex-wrap: wrap;
@@ -12,14 +11,14 @@
 }
 
 .logo_place_header {
-    max-width: 176px;
-    max-height: 52px;
+    
 }
 
 .header__lang-links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding: 0;
 }
 
 .header__lang-link {
