@@ -1,0 +1,15 @@
+.place__paragraph_number_one {
+    margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) { 
+    .place__paragraph_number_one {
+        margin-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .place__paragraph_number_one {
+        margin-bottom: 25px;
+    }
+}
