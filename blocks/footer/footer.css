@@ -7,23 +7,28 @@
     align-items: end;
 }
 
+@media screen and (max-width: 1220px) { 
+    .footer {
+        max-width: 95%;
+    }
+}
+
 @media screen and (max-width: 1024px) { 
     .footer {
-        max-width: 928px;
+        max-width: 90.625%;
     }
 }
 
 @media screen and (max-width: 768px) { 
     .footer {
-        max-width: 720px;
+        max-width: 93.75%;
         margin-top: 88px;
     }
 }
 
-@media screen and (max-width: 610px) { 
+@media screen and (max-width: 710px) { 
     .footer {
-        margin: auto;
-        padding: 0 118px 0 16px;
+        margin: 64px auto 24px 30px;
         max-width: 320px;
         flex-direction: column;
         align-items: baseline;
@@ -32,7 +37,9 @@
 
 @media screen and (max-width: 320px) { 
     .footer {
-        margin: 64px auto 24px auto;
+        margin-left: 16px;
+        margin-right: 118px;
+        max-width: 320px;
     }
     
 }

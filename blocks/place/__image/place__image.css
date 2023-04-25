@@ -11,19 +11,18 @@
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 850px) { 
     .place__image {
         max-width: 340px;
         min-height: 340px;
     }
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 700px) { 
     .place__image {
+        margin: 0 auto;
         max-width: 100%;
-        min-height: 550px;
         grid-row: 3;
-        grid-column: 1;
     }
 }
 

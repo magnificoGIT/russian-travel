@@ -7,6 +7,12 @@
     align-items: flex-end;
 }
 
+@media screen and (max-width: 1220px) { 
+    .header {
+        max-width: 95%;
+    }
+}
+
 @media screen and (max-width: 1024px) { 
     .header {
         max-width: 928px;
@@ -14,9 +20,15 @@
     }
 }
 
+@media screen and (max-width: 950px) { 
+    .header {
+        max-width: 95%;
+    }
+}
+
 @media screen and (max-width: 768px) { 
     .header {
-        max-width: 720px;
+        max-width: 93.75%;
         margin-top: 28px;
     }
 }
@@ -27,7 +39,6 @@
         padding-left: 16px;
         padding-right: 16px;
         max-width: 500px;
-        min-height: 42px;
     }
 }
 

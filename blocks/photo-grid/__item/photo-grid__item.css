@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 927px) { 
     .photo-grid__item {
-        max-width: 350px;
-        min-height: 300px;
+        max-width: 370px;
+        min-height: 280px;
     }
 }
 
@@ -25,15 +25,7 @@
 
 @media screen and (max-width: 720px) { 
     .photo-grid__item {
-        max-width: 310px;
-        min-height: 264px;
-    }
-}
-
-@media screen and (max-width: 355px) { 
-    .photo-grid__item {
-        max-width: 300px;
-        min-height: 216px;
+        max-width: 100%;
     }
 }
 
