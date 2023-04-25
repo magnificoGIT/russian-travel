@@ -1,6 +1,6 @@
 .header {
     max-width: 1184px;
-    margin: 28px auto 56px auto;
+    margin: 28px auto 55px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,15 +36,13 @@
 @media screen and (max-width: 550px) { 
     .header {
         margin: 15px auto 50px auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        max-width: 500px;
+        max-width: 90%;
     }
 }
 
 @media screen and (max-width: 320px) { 
     .header {
         margin: 16px auto 48px auto;
-        max-width: 320px;
+        max-width: 288px;
     }
 }
