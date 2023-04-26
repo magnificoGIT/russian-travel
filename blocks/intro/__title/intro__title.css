@@ -16,20 +16,19 @@
 
 @media screen and (max-width: 714px) {
     .intro__title {
-        font-size: 45px;
+        font-size: 38px;
     }
 }
 @media screen and (max-width: 600px) { 
     .intro__title {
-        max-width: 350px;
+        font-size: 32px;
+        max-width: 251px;
     }
 }
 
 
 @media screen and (max-width: 400px) { 
     .intro__title {
-        max-width: 251px;
-        font-size: 32px;
         line-height: 109%;
     }
 }
