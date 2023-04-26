@@ -1,5 +1,5 @@
 .photo-grid__item {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) { 
